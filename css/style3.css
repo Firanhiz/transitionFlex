@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(245, 232, 216, 0.897);
+    margin: auto;
+    width: 80%;
+}
+
+/* Mətn formatlama */
+.bicycle-section h1 {
+    text-align: center;
+}
+
+.img-bicycle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.figure p:nth-child(2) {
+    padding: 20px;
+    line-height: 24px;
+    font-family: 'Mogra', cursive;
+}
+
+.figure p:nth-child(3) {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    line-height: 24px;
+    font-family: 'Mogra', cursive;
+}
+
+.figure p::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(63, 158, 196);
+}
+
+.figure p::first-line {
+    color: green;
+}
+/* Mətn formatlama */
+
